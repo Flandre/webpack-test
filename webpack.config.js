@@ -13,10 +13,22 @@ module.exports = {
   module: {
     //加载器配置
     loaders: [
-      {test: /\.css$/, loader: 'style-loader!css-loader'},
-      {test: /\.js$/, loader: 'jsx-loader?harmony'},
-      {test: /\.scss$/, loader: 'style!css!sass?sourceMap'},
-      {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.js$/,
+        loader: 'jsx-loader?harmony'
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style-loader!css-loader!sass-loader?sourceMap'
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=8192'
+      }
     ]
   }
 };
