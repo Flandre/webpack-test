@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Flandre/webpack-test/issues"
   },
-  "homepage": "https://github.com/Flandre/webpack-test#readme"
+  "homepage": "https://github.com/Flandre/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-init": "^0.1.0"
+  }
 }
