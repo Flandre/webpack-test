@@ -1,3 +1,1 @@
-/**
- * Created by Flandre on 2016/8/1.
- */
+require('../../css/main.scss');
