@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Flandre/webpack-test#readme",
   "devDependencies": {
+    "jsx-loader": "^0.13.2",
     "webpack": "^1.13.1",
     "webpack-init": "^0.1.0"
   }
