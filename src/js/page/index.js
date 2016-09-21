@@ -5,7 +5,16 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 
+var CommentBox = React.createClass({displayName: 'CommentBox',
+  render: function() {
+    return (
+      React.createElement('div', {className: "commentBox"},
+        "Hello, world! I am a CommentBox."
+      )
+    );
+  }
+});
 ReactDOM.render(
-<h1>Hello, world!</h1>,
+  React.createElement(CommentBox, null),
   document.getElementById('react-test')
 );
